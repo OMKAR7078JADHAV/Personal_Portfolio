@@ -1,0 +1,230 @@
+>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 1, 22);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 10, 68);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul a:hover {
+            color: rgb(52, 52, 106);
+            font-size: 1.05rem;
+        }
+
+
+        main hr {
+            border: 0;
+            background-color: blueviolet;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 95px 10%;
+            flex-wrap: wrap;
+        }
+
+        .first>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 1.47rem;
+            margin: 5%;
+
+
+        }
+
+        .rightsection img {
+            width: 230px;
+            height: 309px;
+            border-radius: 45%;
+            object-fit: cover
+        }
+
+
+        .purple {
+            color: rgb(80, 16, 141);
+        }
+
+        #element {
+            color: rgb(80, 16, 141);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 2;
+
+        }
+
+        .gray {
+            color: rgb(113, 113, 113);
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical1 {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .secondsection .vertical2 {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .secondsection .vertical3 {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .secondsection .vertical4 {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+
+        .img-top {
+            width: 53px;
+            position: relative;
+            top: -56px;
+            left: -90px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 50px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            width: 150px;
+            font-size: 10px;
+            color: rgb(140, 133, 133);
+
+        }
+
+        .vertical-title2 {
+            position: relative;
+            top: 108px;
+            width: 150px;
+        }
+
+
+        .vertical-desc2 {
+            position: relative;
+            top: 145px;
+            width: 150px;
+            font-size: 10px;
+            color: rgb(140, 133, 133);
+
+        }
+
+        .vertical-title3 {
+            position: relative;
+            top: 108px;
+            width: 150px;
+        }
+
+        .vertical-desc3 {
+            position: relative;
+            top: 145px;
+            width: 150px;
+            font-size: 10px;
+            color: rgb(140, 133, 133);
+
+        }
+
+        .vertical-title4 {
+            position: relative;
+            top: 108px;
+            width: 150px;
+        }
+
+        .vertical-desc4 {
+            position: relative;
+            top: 145px;
+            width: 150px;
+            font-size: 10px;
+            color: rgb(140, 133, 133);
+
+        }
+
+
+
+        .first {
+            margin: 75px;
+        }
+
+        .next {
+            text-align: center;
+            margin: -70px;
+            right: 23px;
+            color: gray;
+        }
+
+        .footer-bottom {
+            background-color: rgb(20, 19, 19);
+            text-align: center;
+            padding: 15px 10px;
+            color: gray;
+            font-size: 0.9rem;
+        }
+   
